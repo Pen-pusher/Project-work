@@ -10,7 +10,34 @@
 	margin: 0 auto;
 	padding: 0 2rem;
 }
+.progress-bar-1 {
+ 	height:0.2rem;
+ 	width:90%;
+
+}
+.progress-bar-2 {
+	height:0.2rem;
+	width:70%;
+}
+.progress-bar-3 {
+	height:0.2rem;
+	width:80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
   /***************************grid ...****************************************************************/
+
 body {
 	font-family: 'Noto Sans', sans-serif;
 }
@@ -19,7 +46,7 @@ body {
 	grid-template-columns: repeat(2, 1fr);
 	height: 100vh;
 }
-.header-right-image {
+.header-image {
 	background-image: url(./media/home-img.jpg);
  	background-repeat: no-repeat;
   	background-size: auto;
@@ -47,7 +74,7 @@ a {
 	text-decoration: none;
 	margin-left: 2rem;
 }
-.header-right {
+.header-div-1 {
 	background-color: #F5E3D7;
 	height: 100vh;
 }
@@ -60,7 +87,7 @@ img {
 	text-transform: uppercase;
 	color: #777;
 }
-.header-first {
+.header-div-2 {
 	line-height: 1.3;
 	width: 90%;
 	margin: 0 auto;	
@@ -146,7 +173,7 @@ img {
 
 
 
-.services {
+.sec-2 {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	text-align: center;
@@ -167,17 +194,17 @@ img {
 	background-color: #FFFFFF;
 	color: black;
 }
-.items i{
+.sec-2-items i{
 	padding-top: 3rem;
 	font-size: 3rem;
 	padding-bottom: 1.5rem;
 }
-.items h4 {
+.sec-2-items h4 {
 	padding-bottom: 1rem;
 	width: 80%;
 	margin: 0 auto;
 }
-.items p {
+.sec-2-items p {
 	line-height: 1.5;
 	font-size: 1rem;
 	font-weight: 300;
@@ -187,19 +214,19 @@ img {
 }
 
 
-.experience {
+.sec-3 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
 
-.exp {
+.sec-3-experience {
 	padding-left: 10%;
 	padding-right: 10%;
 	background-color: #FC683E;
 	color: white;;
 }
-.exp h2 {
+.sec-3-experience h2 {
 	color: white;
 	font-size: 2rem;
 	padding-top: 3rem;
@@ -209,20 +236,20 @@ img {
 	font-size: 1rem;
 	padding-bottom: 3rem;
 }
-.exp i {
+.sec-3-experience i {
 	font-size: 2rem;
 	margin-right: 2rem;	
 }
-.i-text{
+.sec-3-text{
 	font-size:1.4rem;
 	line-height: 2rem; 
 	padding-bottom: 3rem;
 }
-.i-text span {
+.sec-3-text span {
 	color: #753334;
 	font-size: 1rem;
 }
-.i-text p {
+.sec-3-text p {
 	margin-left: 4.4rem;
 	font-size: 1rem;
 }
@@ -230,17 +257,17 @@ img {
 
 
 
-.edu {
+.sec-3-education {
 	background-color: #ECAF4E;
 }
 
 
 
-.contact {
+.get-in-touch {
 	display: grid;
 	grid-template-columns: 2fr 1fr 1fr;
 }
-.hello {
+.its-hello {
 	background-color: #FC683E;
 	color: white;
 	padding-left: 2rem;
@@ -275,49 +302,58 @@ textarea {
 ::placeholder {
 	color: rgba(255,255,255,0.7);
 }
-.hello h5 {
+.its-hello h5 {
 	font-size: 2rem;
 	padding-top: 3rem;
 	padding-bottom: 1rem;
 }
 
-.contact img {
+.get-in-touch img {
 	height: 100%;
 }
 form {
 	padding-bottom: 4rem;
 	padding-top: 2rem;
+	color: white;
 }
-.contact p {
+.get-in-touch p {
 	color: rgba(255,255,255,0.6);
 }
-.office {
-	color: white;
+.my-office {
+	background-color: black;
 	padding-left: 2rem;
 }
 
-.office h6 {
+.my-office h6 {
 	font-size: 1.5rem;;
 	padding-top: 3rem;
+	color: white;
 }
 
-.office p {
+.my-office p {
 	padding-top: 2rem;
 	padding-bottom: 1.5rem;
+	color: white;
 }
-.office h5 {
-	font-size: 1.6rem;;
+.my-office h5 {
+	font-size: 1.6rem;
 	padding-top: 1rem;
+	color: white;
 }
-.orange {
-	color: #7C5F30;
+
+.my-office span {
+/*	margin-left: 1rem;*/
+	color: white; 
 }
-.office span {
-	margin-left: 1rem; 
+.my-office-icons {
+/*	padding-top: 2rem;
+*/	color: white;
+	margin-top:2rem; 
 }
-.it {
-	padding-bottom: 1rem;
+.span-icons {
+	margin-left: 1rem;
 }
+
 .send {
 	background-color: white;
 	padding: 0.5rem 4rem;

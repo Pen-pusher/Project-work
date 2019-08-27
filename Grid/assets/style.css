@@ -455,6 +455,31 @@ small:hover{
 /*media queries*/
 
 
-/*@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   
-  }*/
+
+  body {
+  	display: grid;
+  	grid-template-columns: 1 1fr;
+  	grid-row: 7 1fr;
+
+  	
+
+  }
+  .img {
+  	display: none;
+  }
+  .nav-icons {
+  	display: grid;
+  	grid-column: 1 1fr;
+  }
+  .last-img {
+   display: none;
+  }
+ .sec-3-education {
+ 	width: 100%;
+ }
+  .header,.sec-1,.sec-2,.sec-3 {
+  	font-size: 1rem;
+  }
+}

@@ -32,7 +32,12 @@ body {
 	text-transform: uppercase;
 }
 
-
+ #toggle {
+  display: none;
+}
+.bar {
+  display: none;
+}
 
 
 /***************************grid ...****************************************************************/
@@ -457,29 +462,59 @@ small:hover{
 
 @media only screen and (max-width: 768px) {
   
+	.bar {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #5ebd8b;
+    position: absolute;
+    z-index: 99;
+   	margin-left: 150px;
+  }
+	#toggle:checked ~ .main-nav {
+    display: block;
+  }
+  .header {
+  	grid-template-columns: 1fr;
+  }
+  .get-in-touch {
+  	grid-template-columns: 1fr;
+  }
+  .sec-3 {
+  	grid-template-columns: 1fr;
+  }
+  .sec-2 {
+  	grid-template-columns: 1fr;
+  }
+  .sec-1 {
+  	grid-template-columns: 1fr;
+  	font-size: 12px;
 
-  body {
-  	display: grid;
-  	grid-template-columns: 1 1fr;
-  	grid-row: 7 1fr;
-
-  	
-
   }
-  .img {
-  	display: none;
-  }
-  .nav-icons {
-  	display: grid;
-  	grid-column: 1 1fr;
-  }
-  .last-img {
-   display: none;
-  }
- .sec-3-education {
- 	width: 100%;
+ .heading {
+ 	font-size: 10px;
+ 	margin-bottom: 6px;
  }
-  .header,.sec-1,.sec-2,.sec-3 {
-  	font-size: 1rem;
-  }
+ .btn-1 {
+/* 	margin: 2px 0;
+*/ 	padding: 2px 0;
+ }
+ .sub-heading-lower {
+ 	padding: 2px 0;
+ }
+ /*.sec-1-para {
+ 	padding-top: 3px;
+ }*/
+ .header-first-sub-heading,.header-first-para{
+ 	margin-bottom: 55px;
+ 	font-size: 12px;
+ }
+.btn {
+ padding-bottom: 2px;
+ border:none; 
+}
+.sec-3-text {
+	font-size: 16px;
+	font-weight: 900;
+}
+ 
 }

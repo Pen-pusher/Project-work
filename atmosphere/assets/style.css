@@ -1,0 +1,335 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*General css*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.8;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+html {
+  font-size: 16px;
+}
+
+span {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 3rem;
+}
+
+ul {
+  padding-right: 3rem;
+}
+
+.first-div {
+  background-image: linear-gradient(rgba(20, 40, 153, 0.5), rgba(20, 40, 153, 0.5)), url("https://pixelarity.com/items/demos/atmosphere/blue/images/banner.jpg");
+  position: relative;
+  background-attachment: fixed;
+}
+
+.hero {
+  text-align: center;
+  padding: 7rem 0;
+}
+
+.hero h2 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.hero p {
+  color: white;
+  font-size: 3rem;
+}
+
+.btn {
+  background-color: #00A6D9;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 1rem 3rem;
+  margin: 1.5rem 0;
+  font-weight: 600;
+}
+
+.card {
+  padding: 2rem;
+  background-color: white;
+  margin: 2rem 0;
+}
+
+.col-1, .col-2 {
+  width: 48%;
+}
+
+.sec-1 {
+  background-color: #F4F7F9;
+}
+
+.card p {
+  margin-top: 1rem;
+}
+
+.card h3 {
+  color: #02A6D9;
+  font-weight: 900;
+}
+
+.card h2, .card p {
+  color: #6E7D8D;
+}
+
+.btn-more {
+  margin-top: 2rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  color: #6E7D8D;
+  border: none;
+}
+
+.sec-2 {
+  background-color: #00A6D9;
+}
+
+.sec-2 i {
+  color: white;
+  padding: 2rem;
+  border-radius: 50%;
+  box-shadow: inset 2px 2px 2px blue;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.icons h2, .icons p {
+  color: white;
+}
+
+.icons h2 {
+  font-weight: 900;
+}
+
+.icon-1, .icon-2, .icon-3, .icon-4 {
+  width: 22%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.sec-3-heading {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #00A6D9;
+}
+
+.sec-3-para {
+  margin-bottom: 1rem;
+  color: #B8C0C8;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.sec-3-div p {
+  align-items: center;
+}
+
+.sec-3 {
+  padding: 2rem 0;
+}
+
+.sec-4-date, .sec-4-img, .sec-4-text {
+  width: 30%;
+}
+
+.sec-5 {
+  background-image: linear-gradient(rgba(20, 40, 153, 0.5), rgba(20, 40, 153, 0.5)), url("https://pixelarity.com/items/demos/atmosphere/blue/images/banner.jpg");
+  margin-top: 5rem;
+  padding: 7rem 0;
+  background-attachment: fixed;
+  max-height: 200rem;
+}
+
+.address {
+  background-color: white;
+  width: 40%;
+  padding-left: 2rem;
+  text-transform: uppercase;
+}
+
+.address h2 {
+  color: #00A6D9;
+}
+
+.footer {
+  background-color: #00A6D9;
+  color: #B0ADB2;
+  width: 60%;
+  padding-left: 5rem;
+  border: none;
+}
+
+.footer h2 {
+  color: white;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+.small {
+  text-align: center;
+  margin: 10rem 0;
+  color: #B0ADB2;
+  font-size: 1.5rem;
+  padding: 5rem 0;
+}
+
+.message, .name, .email {
+  margin-top: 3rem;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: #B0ADB2;
+  width: 45%;
+  padding: 1rem 5rem;
+}
+
+.message {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: #B0ADB2;
+  padding: 3rem 5rem;
+  width: 90%;
+}
+
+.address h2 {
+  margin-top: 1.4rem;
+  font-weight: 900;
+}
+
+.address p {
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+  padding-bottom: 2.8rem;
+}
+
+.footer h2 {
+  font-size: 2rem;
+}
+
+.btn-send {
+  margin: 2rem 0;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  background-color: #00A6D9;
+  border: none;
+  color: white;
+  border: 1px solid white;
+}
+
+.sec-4 h2 {
+  color: #00A6D9;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.sec-4-para {
+  color: #B0ADB2;
+  text-transform: uppercase;
+}
+
+.sec-4 time {
+  color: #00A6D9;
+  font-weight: 900;
+}
+
+.sec-4-1 {
+  margin: 2rem 0;
+}
+
+/*# sourceMappingURL=style.css.map */

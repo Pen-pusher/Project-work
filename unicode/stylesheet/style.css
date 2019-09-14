@@ -1,0 +1,106 @@
+/*General css*/
+
+*, *:before, *:after {
+	    box-sizing: border-box;
+	 }
+	.clearfix:before, .clearfix:after {
+		content: "";
+		display: table;
+	}
+	.clearfix:after {
+		clear: both;
+	}
+	.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2rem;
+	}
+	body {
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.8;
+	}
+  .flex {
+	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+  	flex-wrap: wrap;
+ 
+ }
+ html {
+ 	font-size: 16px;
+ }
+
+ /*STYLE*/
+
+ .inp {
+ 	margin-top: 10rem;
+    padding: 3rem 0rem;
+    font-size: 1.5rem;
+
+}
+#rand-color {
+	width: 100vw;
+	margin: 0;
+	background-color: #fff;
+	transition: 1s;
+} 
+
+#code {
+	font-size: 3rem;
+	color: magenta;
+	margin: 3rem 0;
+	line-height: 1;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#code-1 {
+	font-size: 3rem;
+	color: orange;
+	margin: 3rem 0;
+	line-height: 1;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 3rem;
+  	color :#ADD8E6;
+	margin: 3rem 0;
+	line-height: 1;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+
+input[type=text]{
+	width: 100%;
+	height: 1rem;
+	margin-bottom: 2rem;
+  	padding-top: -2rem;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+
+}	
+
+
+
+/*media queries*/
+@media all and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  .inp{
+  	padding: 0;
+  	margin: 5px;
+
+  }
+  div {
+  	width: 100%;
+  }
+ }

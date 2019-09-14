@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<script>
+	setInterval(function(){
+		var x,y,z
+		x= Math.round( Math.random() * 255 );
+		y= Math.round( Math.random() * 255 );
+		z= Math.round( Math.random() * 255 ); //255 is the maximum rgb value
+		a= Math.round( Math.random() * 1.0 );
+		var background ="background:rgba("+x+","+y+", "+z+" , "+a+");";
+  		var changeBackground =	document.getElementById("rand-color");
+  		changeBackground.style =background;
+	},3000);
+
+
+	function myFunction(event) {
+  	var x = event.which || event.keyCode;
+  	console.log(event.key);
+  	document.getElementById("code").innerHTML = "The Unicode value is: " + x;
+  	document.getElementById("code-1").innerHTML = `The Key You Pressed is: ${event.key}`;
+}
+	
+</script>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,800&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="stylesheet/reset.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<title>Get The Key CODE</title>
+</head>
+<body  id="rand-color">
+	<div class="wrapper" align="center">
+		<h3>UNICODE GENERATOR</h3>
+		<input class="inp" type="text" onkeypress="myFunction(event)" size="90">
+		<p id="code"></p>
+		<p id="code-1"></p>
+	</div>
+	
+
+</body>
+</html>

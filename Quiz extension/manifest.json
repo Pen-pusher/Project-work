@@ -1,0 +1,9 @@
+{
+  "name": "Taking Notes Extension",
+  "description" : "Taking Notes newtab Chrome Extension",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "chrome_url_overrides":{
+    "newtab" : "index.html"
+  }
+}

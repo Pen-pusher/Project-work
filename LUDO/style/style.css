@@ -1,0 +1,100 @@
+/*General css*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+  font-family: "Solway", serif;
+  background-color: darkolivegreen;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+html {
+  font-size: 16px;
+}
+
+/* style */
+
+.btn-new,
+.btn-roll,
+.btn-hold {
+  font-size: medium;
+  background: transparent;
+  color: chartreuse;
+  border: transparent;
+  padding: 0.5rem 0.5rem;
+  border: 2px solid black;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5%;
+}
+
+.dice {
+  height: 3rem;
+  /* border-radius: 50%; */
+  /* background-color: aqua; */
+  /* position: fixed;  */
+  left: 50%;
+  top: 1788px;
+  transform: translateX(-50%);
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+}
+
+.color {
+  color: chartreuse;
+}
+/* .player-current-label{
+     background-color: dodgerblue;
+  } */
+
+.active {
+  background-color: darkolivegreen;
+  height: 30vh;
+  width: 20vw;
+  padding: 0.5rem 0.5rem;
+  border: 7px solid black;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.winner {
+  /* background-color: black; */
+  border: 2px solid tomato;
+  width: 20%;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5%;
+  height: 30vh;
+  width: 20vw;
+  font-size: 1.5rem;
+}
+.winner .player-name {
+  font-weight: 600;
+  color: #eb4d4d;
+  background: transparent;
+}
+
+main {
+  border: 5px solid black;
+  margin: 4rem 6rem;
+  background-color: darkolivegreen;
+}

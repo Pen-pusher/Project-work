@@ -374,7 +374,7 @@ body {
   }
   .hero-2-container-img3-text {
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 5%;
     margin-top: 6rem;
     color: #e5d4d2;
@@ -392,7 +392,7 @@ body {
   }
   .hero-2-container-img4-text {
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 5%;
     margin-top: 6rem;
     color: #e5d4d2;
@@ -463,9 +463,15 @@ body {
     text-align: left;
   }
   .margin-home {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 10px;
     margin-bottom: 5px;
+  }
+  .hero-4 h4 {
+    font-size: 10px;
+  }
+  .hero-4 a {
+    font-size: 10px;
   }
   .color-blue {
     margin-top: 10px;
@@ -492,12 +498,13 @@ body {
   }
   .bar {
     display: inline-block;
-    font-size: 2rem;
+    font-size: 5rem;
     color: tomato;
     position: absolute;
     z-index: 99;
-    margin-top: 10px;
-    margin-left: 100px;
+    margin-top: 5px;
+    margin-left: 130px;
+    margin-bottom: 5px;
   }
   #toggle:checked ~ .main-nav {
     display: block;

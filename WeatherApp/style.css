@@ -1,3 +1,7 @@
+
+/* A>K>A By Piyush */
+
+
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -220,7 +224,7 @@ input {
   height: 30px;
 }
 
-/*forecast~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*forecasting~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .forecast {
   display: -webkit-box;
@@ -288,29 +292,9 @@ input {
   color: tomato;
 }
 
-/* comment this out if you want to add mini scale color */
 
-/* .mini-scale,
-.mini-fill {
-  min-width: 20px;
-  -ms-flex-item-align: end;
-  align-self: flex-end;
-}
 
-.mini-fill {
-  max-height: 120px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.mini-scale {
-  min-height: 120px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-} */
-
-/*Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Footer~~~~~~~~~~~~~~~*/
 
 footer {
   position: fixed;

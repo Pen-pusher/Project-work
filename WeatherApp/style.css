@@ -44,9 +44,9 @@ h1 {
   border-radius: 5px;
 }
 
-.main-container:hover {
+/* .main-container:hover {
   transform: scale(1.1);
-}
+} */
 
 .canvas-description {
   display: -webkit-box;
@@ -288,7 +288,9 @@ input {
   color: tomato;
 }
 
-.mini-scale,
+/* comment this out if you want to add mini scale color */
+
+/* .mini-scale,
 .mini-fill {
   min-width: 20px;
   -ms-flex-item-align: end;
@@ -306,7 +308,7 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
+} */
 
 /*Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
@@ -354,5 +356,11 @@ footer a {
       #fefdfb 85%,
       tomato 85%
     );
+  }
+}
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 10px;
   }
 }

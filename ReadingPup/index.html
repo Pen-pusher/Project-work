@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Pup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/minified.css">
+
+</head>
+
+<body>
+    <div class="mainHeader">
+        <header class=" valign">
+            <div class="container-fluid p-2" style="position:relative;">
+                <div class="row valign">
+                    <!-- logo -->
+                    <div class="col-md-3">
+                        <h1 class="nomargin">
+                            <a href="#" class="dark valign logo_block">
+
+                                <img src="https://readingpup.com/images/logotype_icon.png" class="logo "
+                                    alt="Logo">&nbsp;
+                                <span class="mt-1 logo_text">Reading Pup</span>
+                            </a>
+                        </h1>
+                    </div>
+                    <!-- menu starts -->
+                    <div class="col-md-9 text-right m_nopadding">
+                        <nav class="valign right noneinmobile  ">
+                            <ul class="d-flex">
+                                <li class="">
+                                    <a class="valign mynav" href="#">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/home.png" alt="demo">
+                                            </i>
+                                        </span>Home
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a class="valign mynav" ">
+                                        <span class=" center">
+                                        <i class="center">
+                                            <img src="https://readingpup.com/images/menu/demo.png" alt="demo">
+                                        </i>
+                                        </span>Demo
+                                    </a>
+                                </li>
+
+                                <li class="">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/epricing.png" alt="pricing"
+                                                    style="width:28px">
+                                            </i>
+                                        </span>Pricing
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/books.png" alt="books"
+                                                    style="width:28px">
+                                            </i>
+                                        </span>Books
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/blog.png" alt="demo">
+                                            </i>
+                                        </span>Blog
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/contact.png" alt="demo">
+                                            </i>
+                                        </span>Contact
+                                    </a>
+                                </li>
+
+                                <li class="">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/login.png" alt="demo">
+                                            </i>
+                                        </span>Login
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- bar -->
+                        <div class="m_menu noneindesktop">
+                            <div class="hamburger-menu">
+                                <div class="bar" onclick=" myFunction()"></div>
+                            </div>
+                        </div>
+                        <!--mobile-responsivemenu  -->
+                        <nav class="noneindesktop mobile-nav w-100 " id="show">
+                            <ul>
+                                <li class="">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/home.png" alt="demo">
+                                            </i>
+                                        </span>Home
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/demo.png" alt="demo">
+                                            </i>
+                                        </span>Demo
+                                    </a>
+                                </li>
+
+                                <li class="active_nav">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/epricing.png" alt="pricing"
+                                                    style="width:28px">
+                                            </i>
+                                        </span>Pricing
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/books.png" alt="books"
+                                                    style="width:28px">
+                                            </i>
+                                        </span>Books
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/blog.png" alt="demo">
+                                            </i>
+                                        </span>Blog
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/contact.png" alt="demo">
+                                            </i>
+                                        </span>Contact
+                                    </a>
+                                </li>
+
+
+                                <li class="">
+                                    <a class="valign mynav">
+                                        <span class="center">
+                                            <i class="center">
+                                                <img src="https://readingpup.com/images/menu/login.png" alt="demo">
+                                            </i>
+                                        </span>Login
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main starts -->
+        <main>
+            <section class="main_section">
+                <!-- features -->
+                <div class="features">
+                    <div class="featuresTitle">Ever Wondered why the phonics way is better ?</div>
+                    <div class="featureFlexContainer">
+                        <div class="fcLeftBox">
+                            <img src="assets/images/girl-and-books.png" alt="">
+                        </div>
+                        <div class="fcRightBox">
+                            <div class="fcrbfeatures">
+                                <div class="fcrbfContainer">
+                                    <img src="assets/images/Star.svg" alt="">
+                                    <div class="featurePoints">Phonics focuses on letter sounds not just letter names.
+                                    </div>
+                                </div>
+                                <div class="fcrbfContainer">
+                                    <img src="assets/images/Star.svg" alt="">
+                                    <div class="featurePoints">Phonics focuses on letter sounds not just letter names.
+                                    </div>
+                                </div>
+                                <div class="fcrbfContainer">
+                                    <img src="assets/images/Star.svg" alt="">
+                                    <div class="featurePoints">With sounds & video , children get the tools to read
+                                        almost
+                                        any word.</div>
+                                </div>
+                            </div>
+                            <!-- book-a-demo-button -->
+                            <div class="scheduleDemoButton">Check Our Demo Class</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- usp -->
+                <div class="usp">
+
+                    <div class="uspFlexContainer">
+                        <div class="uspLeftBox">
+                            <div class="usplbTitile">
+                                Every class is a fun-filled experience with.
+                                <img src="assets/images/candy.png" alt="" class="candy">
+                            </div>
+                        </div>
+                        <div class="fcRightBox uspRightBox">
+                            <div class="fcrbfeatures">
+                                <div class="fcrbfContainer">
+                                    <img src="https://readingpup.com/images/coloured_icons/bit_size.png" alt=""
+                                        style="width: 80px;">
+                                    <div class="featurePoints">Bite-size content.</div>
+                                </div>
+                                <div class="fcrbfContainer">
+                                    <img src="https://readingpup.com/images/coloured_icons/game.png" alt=""
+                                        style="width: 80px;">
+                                    <div class="featurePoints">Gamified experience .</div>
+                                </div>
+                                <div class="fcrbfContainer">
+                                    <img src="https://readingpup.com/images/coloured_icons/cartoons.png" alt=""
+                                        style="width: 80px;">
+                                    <div class="featurePoints">Learning with cartoons.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- choose pack title -->
+                <div class="choose_pack">
+                    <h2>Choose a pack and begin an amazing journey
+                    </h2>
+                </div>
+                <!-- pricing pack  -->
+                <div class="pricingcontainer">
+                    <div class="leftDivider"></div>
+                    <div class="subscriptionTitle">Monthly</div>
+                    <div class="rightDivider"></div>
+                </div>
+                <!-- packs -->
+                <!-- first card -->
+                <div class="cardBox">
+                    <div class="card_container">
+                        <div class="silver" style="height: 365px;">
+                            <div class="silverTop" style="background-color: rgb(222, 238, 232)" ;>
+                                <div class="silverTitle">
+                                    Silver
+                                </div>
+                            </div>
+                            <div class="silverBottom">
+                                <div class="what_kid_will_learn">What will your kid learn?</div>
+                                <div class="silverFeaturePoints">
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                </div>
+                                <div class="silverPrice">
+                                    <div class="actualPrice">₹12400</div>
+                                </div>
+                                <div class="buttonBuyNow">Buy
+                                    Now</div>
+                            </div>
+                        </div>
+                        <!-- bronze -->
+                        <div class="silver" style="height: 365px;">
+                            <div class="silverTop" style="background-color: rgb(222, 238, 232)" ;>
+                                <div class="silverTitle">
+                                    Gold
+                                </div>
+                            </div>
+                            <div class="silverBottom">
+                                <div class="what_kid_will_learn">What will your kid learn?</div>
+                                <div class="silverFeaturePoints">
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                </div>
+                                <div class="silverPrice">
+                                    <div class="actualPrice">₹12400</div>
+                                </div>
+                                <div class="buttonBuyNow">Buy
+                                    Now</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- yearly -->
+                <!-- pricing pack  -->
+                <div class="pricingcontainer">
+                    <div class="leftDivider"></div>
+                    <div class="subscriptionTitle">Yearly</div>
+                    <div class="rightDivider"></div>
+                </div>
+                <!-- packs -->
+                <!-- first card -->
+                <div class="cardBox">
+                    <div class="card_container">
+                        <div class="silver" style="height: 365px;">
+                            <div class="silverTop" style="background-color: rgb(222, 238, 232)" ;>
+                                <div class="silverTitle">
+                                    Silver
+                                </div>
+                            </div>
+                            <div class="silverBottom">
+                                <div class="what_kid_will_learn">What will your kid learn?</div>
+                                <div class="silverFeaturePoints">
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                </div>
+                                <div class="silverPrice">
+                                    <div class="actualPrice">₹12400</div>
+                                </div>
+                                <div class="buttonBuyNow">Buy
+                                    Now</div>
+                            </div>
+                        </div>
+                        <!-- bronze -->
+                        <div class="silver" style="height: 365px;">
+                            <div class="silverTop" style="background-color: rgb(222, 238, 232)" ;>
+                                <div class="silverTitle">
+                                    Bronze
+                                </div>
+                            </div>
+                            <div class="silverBottom">
+                                <div class="what_kid_will_learn">What will your kid learn?</div>
+                                <div class="silverFeaturePoints">
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                </div>
+                                <div class="silverPrice">
+                                    <div class="actualPrice">₹12400</div>
+                                </div>
+                                <div class="buttonBuyNow">Buy
+                                    Now</div>
+                            </div>
+                        </div>
+                        <!-- gold -->
+                        <div class="silver" style="height: 365px;">
+                            <div class="silverTop" style="background-color: rgb(222, 238, 232)" ;>
+                                <div class="silverTitle">
+                                    Gold
+                                </div>
+                            </div>
+                            <div class="silverBottom">
+                                <div class="what_kid_will_learn">What will your kid learn?</div>
+                                <div class="silverFeaturePoints">
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                    <div>• 42 Basic Phonics Sounds</div>
+                                </div>
+                                <div class="silverPrice">
+                                    <div class="actualPrice">₹12400</div>
+                                </div>
+                                <div class="buttonBuyNow">Buy
+                                    Now</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- school -->
+                <div class="schoolBackground">
+                    <div class="schoolContainer">
+                        <div class="schoolContainerLeftBox">
+                            <div class='sclbHeading'>Are you a kindergarten or school?</div>
+                            <div class="scblPara"> If you’re looking to offer ReadingPup to your students, please
+                                contact
+                                us at</div>
+                            <div class="buttonBuyNow">Enquire
+                                Now</div>
+                        </div>
+                        <div class="schoolContainerRightBox">
+                            <img src="assets/images/school.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script>
+        function myFunction() {
+            var x = document.querySelector("#show");
+            console.log
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

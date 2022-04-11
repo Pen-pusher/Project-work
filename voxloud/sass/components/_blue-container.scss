@@ -1,0 +1,103 @@
+.blue {
+    background-color: $soft-blue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+     @media screen and (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+       
+   } 
+}
+
+
+
+
+.blueCont-title {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 36px;
+    color: $bg-primary-white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.incentive {
+    font-family: $main-font;
+    color: $bg-primary-white;
+    text-align: center;
+text-transform: uppercase;
+}
+.join-form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   @media screen and (max-width: 767px) {
+       flex-direction: column;
+       
+   } 
+
+
+    @media screen and (min-width: 768px) {
+       flex-direction: row;
+       
+   } 
+
+}
+
+.enter-email {
+    display: inline-block;
+    padding: 15px 16px;
+    border: 1px solid $grayish-blue;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+
+    color: $grayish-blue;
+    background-color: $bg-primary-white;
+    outline: none;
+    margin-right: 2em;
+    font-size: 16px;
+    height: 50px;
+
+    font-family: $main-font;
+
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 2em;
+      max-width: 100%;
+      box-sizing: border-box;
+       
+   } 
+}
+
+.button-join {
+    display: inline-block;
+    align-items: center;
+    height: 50px;
+    padding: 15px 16px;
+    border-radius: 4px;
+    color: $bg-primary-white;
+    background-color: $soft-red;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    text-decoration: none;
+    font-size: 16px;
+     box-sizing: border-box;
+    
+    
+    overflow: hidden;
+    border-style: none;
+    cursor: pointer;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 2em;
+      max-width: 100%;
+     
+       
+   } 
+}
+
+

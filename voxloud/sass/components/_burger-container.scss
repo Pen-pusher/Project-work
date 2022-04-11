@@ -1,0 +1,41 @@
+
+.for-burger {
+    @media screen and (max-width: 767px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+
+
+
+
+header .menu-container {
+    @media screen and (max-width: 767px) {
+    display: none;
+    position: absolute;
+    background-color: $dark-blue;
+    opacity: 95%;
+    padding: 40px;
+    top: 37%;
+    left: 0;
+    width: 100%;
+   
+}
+}
+
+
+
+.menu-container.is-open {
+
+    @media screen and (max-width: 767px) {
+    display: block;
+}
+}

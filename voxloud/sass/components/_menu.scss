@@ -1,0 +1,64 @@
+.menu-button {
+  display: inline-flex;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
+// svg:hover .icon-menu {
+//   --color1: $accent-color;
+// }
+// svg:focus .icon-menu {
+//   --color1: $accent-color;
+// }
+
+// svg:hover .icon-cross {
+//   fill: $accent-color;
+// }
+// svg:focus .icon-cross {
+//   fill: $accent-color;
+// }
+
+
+
+.nav-list {
+  list-style: none;
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    margin-left: 81px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
